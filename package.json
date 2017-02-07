@@ -7,15 +7,13 @@
     "url": "https://github.com/ScottPeterJohnson/typescript-node-template.git"
   },
   "dependencies": {
+    "@types/node": "^7.0.5",
     "reflect-metadata": "^0.1.8",
     "typedjson": "^0.1.5",
-    "typescript": "^2.0.0",
-    "typings": "^1.3.3"
+    "typescript": "^2.0.0"
   },
   "scripts": {
-    "install": "npm run typings install",
     "app": "npm run tsc && node node_modules/main.js",
-    "tsc": "tsc",
-    "typings": "typings"
+    "tsc": "tsc"
   }
 }
